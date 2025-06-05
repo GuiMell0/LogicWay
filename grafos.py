@@ -12,37 +12,37 @@ coordenadas = {
 
 grafo = {
     "Hospital Municipal Dr. Ernesto Che Guevara": {
-        "HCCOR - Hospital do Câncer e do Coração": 32,
-        "Hospital Universitário Antônio Pedro": 40,
-        "Hospital Municipal Desembargador Leal Junior": 20
+        "HCCOR - Hospital do Câncer e do Coração": 35,
+        "Hospital Universitário Antônio Pedro": 45,
+        "Hospital Municipal Desembargador Leal Junior": 30
     },
     "HCCOR - Hospital do Câncer e do Coração": {
-        "Hospital Universitário Antônio Pedro": 25,
-        "Hospital Municipal Souza Aguiar": 38,
-        "Hospital Municipal Desembargador Leal Junior": 18
+        "Hospital Universitário Antônio Pedro": 30,
+        "Hospital Municipal Souza Aguiar": 44,
+        "Hospital Municipal Desembargador Leal Junior": 25
     },
     "Hospital Universitário Antônio Pedro": {
-        "Hospital Municipal Souza Aguiar": 12,
-        "Hospital Municipal Ronaldo Gazolla": 30
-    },
-    "Hospital Municipal Souza Aguiar": {
-        "Hospital Municipal Ronaldo Gazolla": 15,
-        "Hospital Santa Teresa": 65
-    },
-    "Hospital Municipal Ronaldo Gazolla": {
-        "Hospital Santa Teresa": 35
-    },
-    "Hospital Municipal Desembargador Leal Junior": {
-        "Hospital Municipal de Magé": 25,
-        "HCCOR - Hospital do Câncer e do Coração": 18
-    },
-    "Hospital Santa Teresa": {
-        "Hospital Municipal Dr. Munir Rafful": 55,
+        "Hospital Municipal Souza Aguiar": 25,
         "Hospital Municipal Ronaldo Gazolla": 35
     },
+    "Hospital Municipal Souza Aguiar": {
+        "Hospital Municipal Ronaldo Gazolla": 40,
+        "Hospital Santa Teresa": 70
+    },
+    "Hospital Municipal Ronaldo Gazolla": {
+        "Hospital Santa Teresa": 60
+    },
+    "Hospital Municipal Desembargador Leal Junior": {
+        "Hospital Municipal de Magé": 45,
+        "HCCOR - Hospital do Câncer e do Coração": 25
+    },
+    "Hospital Santa Teresa": {
+        "Hospital Municipal Dr. Munir Rafful": 130,
+        "Hospital Municipal Ronaldo Gazolla": 55
+    },
     "Hospital Municipal de Magé": {
-        "Hospital Municipal Dr. Munir Rafful": 80,
-        "Hospital Municipal Desembargador Leal Junior": 35
+        "Hospital Municipal Dr. Munir Rafful": 132,
+        "Hospital Municipal Desembargador Leal Junior": 75
     },
     "Hospital Municipal Dr. Munir Rafful": {}
 }
