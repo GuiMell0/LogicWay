@@ -1,4 +1,4 @@
-# 🏥 Roteador de Hospitais com Dijkstra, Mapas e Visualização Gráfica
+# 🏥 Rota de Hospitais com Dijkstra, Mapas e Visualização Gráfica
 
 Este projeto utiliza o algoritmo de Dijkstra para encontrar a rota mais rápida entre o hospital Che Guevara no município de Maricá para outros hospitais do estado do Rio de Janeiro, otimizando o transporte de órgãos para transplantes.
 
@@ -64,7 +64,7 @@ python main.py
 
 1. O programa listará os hospitais disponíveis.
 2. Você escolhe o destino.
-3. O programa mostrará o melhor caminho, o tempo estimado, e abrirá um mapa.
+3. O programa mostrará o melhor caminho, o tempo estimado, e abrirá um mapa em uma página HTML.
 
 ---
 
