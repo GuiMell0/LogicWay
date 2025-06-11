@@ -38,19 +38,6 @@ def main():
 
     clima, transito, acidentes, obras = gerar_condicoes()
 
-    print("\nCondições atuais detectadas automaticamente:")
-    if not any([clima, transito, acidentes, obras]):
-        print("Condições normais, sem interferências nas rotas.")
-    else:
-        if clima:
-            print("Clima: Chuvoso (+15 min)")
-        if transito:
-            print("Trânsito: Pesado (+20 min)")
-        if acidentes:
-            print("Acidentes: Presentes (+10 min)")
-        if obras:
-            print("Obras: Presentes (+5 min)")
-
     print("\nHospitais disponíveis para destino:")
     locais = list(coordenadas.keys())
 
@@ -63,7 +50,19 @@ def main():
     opcao = int(input("Escolha o número do hospital destino: "))
     destino_usuario = destinos[opcao - 1]
 
-
+    print("\nCondições atuais detectadas automaticamente:")
+    if not any([clima, transito, acidentes, obras]):
+        print("Condições normais, sem interferências nas rotas.")
+    else:
+        if clima:
+            print("Clima: Chuvoso (+15 min)")
+        if transito:
+            print("Trânsito: Pesado (+20 min)")
+        if acidentes:
+            print("Acidentes: Presentes (+10 min)")
+        if obras:
+            print("Obras: Presentes (+5 min)")
+            
     grafo_atualizado = aplicar_condicoes(grafo, clima, transito, acidentes, obras)
 
     distancia, anteriores = dijkstra(grafo_atualizado, origem)
